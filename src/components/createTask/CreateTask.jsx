@@ -6,9 +6,9 @@ import CreateModal from "../ModalCreate/CreateModal";
 export default function CreateTask() {
   const [todos, settodos] = useState([]);
 
-  const handlesettodo = (obj) => {
-    settodos([obj, ...todos]);
-  };
+  // const handlesettodo = (obj) => {
+  //   settodos([obj, ...todos]);
+  // };
   // console.log(todos, "from createtask");
   return (
     <div className="createtask ">

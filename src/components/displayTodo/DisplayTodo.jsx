@@ -11,7 +11,7 @@ export default function DisplayTodo(props) {
       <div className="todocontainerheading">{props.heading}</div>
       <div className="todoslist">
         {search
-          ? typeof search === typeof "test"
+          ? typeof search === "string"
             ? tasks
                 .filter((item) => {
                   return (

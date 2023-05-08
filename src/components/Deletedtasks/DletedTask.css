@@ -1,4 +1,8 @@
 .DeletedTasks{
-    background-color: rgb(162, 255, 243);
+    /* background-color: rgb(255, 255, 255); */
     height: 32vmax;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

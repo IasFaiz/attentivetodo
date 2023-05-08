@@ -38,7 +38,7 @@ export default function Filters() {
         <Box
           component="form"
           sx={{
-            "& > :not(style)": { m: 1, width: "450px" },
+            "& > :not(style)": { m: 1, width: "445px" },
           }}
           noValidate
           autoComplete="off"
@@ -68,7 +68,7 @@ export default function Filters() {
             variant="contained"
             size="medium"
             onClick={handleCleare}
-            style={{ maxWidth: "120px", maxHeight: "35px", margin: "20px" }}
+            style={{ maxWidth: "110px", maxHeight: "35px", margin: "20px" }}
           >
             Clear
           </Button>

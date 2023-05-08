@@ -1,6 +1,7 @@
 import React from "react";
-
+import "./createmodal.css";
 import InputLabel from "@mui/material/InputLabel";
+import AddIcon from "@mui/icons-material/Add";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import Box from "@mui/material/Box";
@@ -98,7 +99,16 @@ export default function CreateModal(props) {
             onClick={handleOpen}
           />
         ) : (
-          <Button onClick={handleOpen}>Create</Button>
+          // <Button onClick={handleOpen}>
+          //   Create
+          //   <AddIcon />
+          // </Button>
+          <div className="addtodobutton">
+            <Button variant="contained" onClick={handleOpen}>
+              Add Todo
+              <AddIcon />
+            </Button>
+          </div>
         )}
 
         <Modal
